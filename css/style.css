@@ -24,3 +24,28 @@
     margin-top: 170px;
     padding-bottom: 25px;
 }
+.section2 h1{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+}
+.section2 p{
+    text-align: center;
+    /* font-size: 21px; */
+    font-size: 17px;
+}
+.section3{
+    background-image: url("/home/guyo/Desktop/moringa/ip3/img/backgrounds/s_image.jpg");
+    text-align: center;  
+    margin-top: 70px;
+    height: 400px;
+}
+.section3 h1{
+    color:aliceblue ;
+    padding-top: 120px;
+    font-size: 25px;
+}
+.section3 p{
+    color: aliceblue;
+    
+}
