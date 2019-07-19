@@ -42,10 +42,30 @@
 }
 .section3 h1{
     color:aliceblue ;
-    padding-top: 120px;
+    padding-top: 150px;
     font-size: 25px;
 }
 .section3 p{
     color: aliceblue;
     
+}
+.section4{
+    text-align: center;
+    padding-top: 50px;
+}
+.section4 h1{
+    font-size: 25px;
+}
+.img-fluid{
+    padding-top: 50px;
+}
+.section4 h5{
+    font-size: 15px;
+    padding-top: 5px;
+    font-style: inherit;
+}
+.portfolio h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
 }
