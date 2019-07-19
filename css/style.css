@@ -77,9 +77,39 @@
 }
 .contact{
     background-image: url("/home/guyo/Desktop/moringa/ip3/img/backgrounds/c_image.jpg");
+    background-size: 100%;
     text-align: center;
+    color: aliceblue;
+    padding-top: 35px;
+    height: 100%;
 }
-
+.form{
+    background: transparent;
+    width: 500px;
+}
+.forms{
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 500px;
+}
+.form-control{
+    background: transparent;
+    width: 1025px;
+    height: 300px;
+}
+/* .sub{
+    background-color: transparent;
+    padding-top: 20px;
+    float: left;
+    padding-left: 200px;
+} */
+.sub{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: -100px;
+    
+    
+}
 
 
 
