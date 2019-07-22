@@ -15,16 +15,19 @@ $(document).ready(function(){
 
      $(".port").hover(function() {
         $(this).children(".card").fadeToggle(1000, "linear");
+        // $(".card").toggle();
         
        });
 
-    $(".contact").submit(function(event){
-        var name = document.getElementById("name");
-       
-        $(".forms").append(+ name + "we have received your email.we will get back to you soon ")
-        
-
-        event.preventDefault();
+    
+       $("#contact").submit(function (e) {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        if (name == "" || email == "") {
+            alert("Cannot submit without name and email");
+        } else {
+            alert("thank you " + name + " \n message submitted successfully. We will get back to you as soon as possible");
+        }
     });
     
 });

@@ -126,6 +126,10 @@
     width: 1025px;
     height: 300px;
 }
+.feed{
+display: none;
+}
+
 /* .sub{
     background-color: transparent;
     padding-top: 20px;
