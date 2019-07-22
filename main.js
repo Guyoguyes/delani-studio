@@ -18,16 +18,13 @@ $(document).ready(function(){
         
        });
 
-    $("#name").submit(function(event){
+    $(".contact").submit(function(event){
         var name = document.getElementById("name");
        
-
-        name.ForEach(function(mess){
-            var userinput = $("input" + mess).value();
-            $("." + mess).text(userinput);
-        });
-        $("#text").show(+ name + "we have received your message. Thank you fro reaching out to us.");
+        $(".forms").append(+ name + "we have received your email.we will get back to you soon ")
+        
 
         event.preventDefault();
     });
+    
 });

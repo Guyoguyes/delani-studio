@@ -1,5 +1,5 @@
 .hero{
-    background-image: url("/home/guyo/Desktop/moringa/ip3/img/backgrounds/h_img.jpg");
+    background-image: url("/home/guyo/moringa/ip3/img/backgrounds/h_img.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -35,7 +35,7 @@
     font-size: 17px;
 }
 .section3{
-    background-image: url("/home/guyo/Desktop/moringa/ip3/img/backgrounds/s_image.jpg");
+    background-image: url("/home/guyo/moringa/ip3/img/backgrounds/s_image.jpg");
     text-align: center;  
     margin-top: 70px;
     height: 400px;
@@ -104,7 +104,7 @@
 }
 
 .contact{
-    background-image: url("/home/guyo/Desktop/moringa/ip3/img/backgrounds/c_image.jpg");
+    background-image: url("/home/guyo/moringa/ip3/img/backgrounds/c_image.jpg");
     background-size: 100%;
     text-align: center;
     color: aliceblue;
@@ -119,6 +119,7 @@
     padding-left: 40px;
     padding-top: 20px;
     height: 500px;
+    
 }
 .form-control{
     background: transparent;
@@ -146,6 +147,10 @@
 }
 .social img{
     padding: 3px;
+}
+.social img:hover{
+    height: 80px;
+    width: 80px;
 }
 .social h3{
     padding-top: 20px;
