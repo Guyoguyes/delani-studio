@@ -15,8 +15,7 @@ $(document).ready(function(){
 
      $(".port").hover(function() {
         $(this).children(".card").fadeToggle(1000, "linear");
-        // $(".card").toggle();
-        
+       
        });
 
     
