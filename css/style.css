@@ -1,5 +1,5 @@
 .hero{
-    background-image: url("backgrounds/h_img.jpg");
+    background-image: url("/backgrounds/h_img.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -35,7 +35,7 @@
     font-size: 17px;
 }
 .section3{
-    background-image: url("backgrounds/s_image.jpg");
+    background-image: url("/backgrounds/s_image.jpg");
     text-align: center;  
     margin-top: 70px;
     height: 400px;
@@ -104,13 +104,14 @@
 }
 
 .contact{
-    background-image: url("backgrounds/c_image.jpg");
+    background-image: url("/backgrounds/c_image.jpg");
     background-size: 100%;
     text-align: center;
     color: aliceblue;
     padding-top: 35px;
     height: 100%;
 }
+
 .form{
     background: transparent;
     width: 500px;
@@ -121,10 +122,21 @@
     height: 500px;
     
 }
-.form-control{
+#name{
+    width: 400px;
+    margin-left: 30px;
+    background: transparent;
+}
+#email{
+    width: 400px;
+    margin-left: 2px;
+    float: right;
+    background: transparent;
+}
+#text{
     background: transparent;
     width: 1025px;
-    height: 300px;
+    height: 150px;
 }
 .feed{
 display: none;
